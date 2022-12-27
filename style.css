@@ -134,6 +134,7 @@ body {
      margin-bottom: 10px;
 }
 
-.results>h2 {
+span.result {
      margin-top: 75px;
+     font-size: 18px;
 }

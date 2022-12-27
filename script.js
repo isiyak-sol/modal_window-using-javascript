@@ -23,6 +23,7 @@ const additionBtn = document.querySelector('.add');
 const substractionBtn = document.querySelector('.sub');
 const multiplicationBtn = document.querySelector('.mul');
 const divisionBtn = document.querySelector('.div');
+const resetBtn = document.querySelector('.reset');
 
 // Getting Variables
 // const variables = function() {
@@ -71,3 +72,9 @@ additionBtn.addEventListener('click', add)
 substractionBtn.addEventListener('click', sub)
 multiplicationBtn.addEventListener('click', mul)
 divisionBtn.addEventListener('click', div)
+
+resetBtn.addEventListener('click', function() {
+      document.querySelector('.num1').value = '';
+      document.querySelector('.num2').value = '';
+      totalValue('result');
+})

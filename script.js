@@ -25,9 +25,9 @@ const multiplicationBtn = document.querySelector('.mul');
 const divisionBtn = document.querySelector('.div');
 
 // Getting Variables
-const variables = function() {
+// const variables = function() {
      
-}
+// }
 
 // Getting Result
 const totalValue = function(total) {

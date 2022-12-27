@@ -100,10 +100,28 @@ body {
 .operations {
      width: 50%;
      margin: 15px;
+     padding: 15px;
 }
+
+.operations>h1 {
+     color: rgb(117, 7, 219);
+}
+
+.results>h1 {
+     color: rgb(117, 7, 219);
+}
+
+span.result {
+     color: #fff;
+     padding: 10px 15px;
+     background: black;
+     border-radius: 10px;
+}
+
 .results {
      text-align: center;
      margin: 15px;
+     padding: 15px;
 }
 
 .operations>h1, .results>h1 {
@@ -137,4 +155,17 @@ body {
 span.result {
      margin-top: 75px;
      font-size: 18px;
+}
+
+.footer {
+     font-weight: bold;
+     position: absolute;
+     bottom: 0;
+     background-color: darkblue;
+     color: #fff;
+     padding: 15px;
+}
+
+.footer p {
+     text-align: center;
 }
